@@ -41,9 +41,6 @@ sliderButtons.forEach(angle => {
             sliderImages.scrollLeft += firstImgWidth;
             sliderText.scrollLeft += firstTextWidth;
         }
-
-        console.log(scrollWidth);
-        console.log(sliderImages.scrollLeft);
     })
 });
 
