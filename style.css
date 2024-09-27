@@ -45,6 +45,7 @@ header{
     position: absolute;
     z-index: 5;
     animation: header 1s ease-in-out;
+    
 }
 
 @keyframes header {
@@ -102,7 +103,7 @@ nav a{
     font-size: 14px;
 }
 
-a::after{
+nav a::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -114,7 +115,7 @@ a::after{
     transition: 200ms ease-out;
 }
 
-a:hover::after{
+nav a:hover::after{
     transform: scaleX(1);
 }
 
@@ -346,7 +347,7 @@ h2{
         font-weight: normal;
     }
 
-    a::after{
+    nav a::after{
         background-color: var(--White);
     }
 
