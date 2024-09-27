@@ -269,24 +269,6 @@ h2{
     background-image: url(images/image-about-light.jpg);
 }
 
-/* Footer */
-.attribution {
-    font-size: 90%;
-    text-align: center;
-    padding: 0.6rem;
-    color: var(--White);
-    background-color: #121212;
-}
-.attribution a {
-    position: relative;
-    padding-bottom: 0.2rem;
-    text-decoration: none;
-    color: #bfbfbf;
-}
-.attribution a::after{
-    background-color: #bfbfbf;
-}
-
 @media screen and (900px > width > 550px ) {
     html{
         font-size: 16px;
